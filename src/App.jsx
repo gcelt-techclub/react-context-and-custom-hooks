@@ -1,8 +1,15 @@
-import React from "react";
-
+import Navbar from "./components/Navbar";
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline bg-red-600">Hello world!</h1>
+    <div className="w-screen h-screen ">
+      {/* Navbar div */}
+      <div className="w-screen h-[7%] ">
+        <Navbar />
+      </div>
+
+      {/* Body */}
+      <div className="w-screen h-[93%] bg-slate-400 dark:bg-slate-950 "></div>
+    </div>
   );
 };
 
