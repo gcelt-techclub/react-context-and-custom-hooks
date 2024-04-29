@@ -1,8 +1,11 @@
-# React + Vite
+# Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Here, we have implemented the dark/light theme mode for the webiste using Context API in React.
 
-Currently, two official plugins are available:
+- But the main fallback is that whenever we reload the page, it refreshes to the most primitive stage of Dark Theme.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- What if we want to persist the user's choice even across browser reloads and refreshes. How can we achieve that?
+
+- Clue: Using some **Persistent Storage** may help 🤔🤔
+
+- Incorporate that logic and try to achieve the results
